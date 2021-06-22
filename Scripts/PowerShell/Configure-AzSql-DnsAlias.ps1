@@ -12,11 +12,11 @@
 
 .EXAMPLE
 Create
-    Configure-AzSql-DnsAlias -DnsOperation "Create" -ResourceGroupName "" -ServerName "" -DnsName"" 
+    Configure-AzSql-DnsAlias -DnsOperation "Create" -ResourceGroupName "" -ServerName "" -DnsName "" 
 Move
-    Configure-AzSql-DnsAlias -DnsOperation "Move"  -ResourceGroupName "" -ServerName "" -DnsName"" -SubscriptionName "" -$TargetResourceGroupName "" -TargetServerName ""
-Remove
-    Configure-AzSql-DnsAlias -DnsOperation "Remove" -ResourceGroupName "" -ServerName "" -DnsName"" 
+    Configure-AzSql-DnsAlias -DnsOperation "Move"  -ResourceGroupName "" -ServerName "" -DnsName "" -SubscriptionName "" -TargetResourceGroupName "" -TargetServerName ""
+Remove 
+    Configure-AzSql-DnsAlias -DnsOperation "Remove" -ResourceGroupName "" -ServerName "" -DnsName "" 
    #>
 [CmdletBinding()]
 param (
